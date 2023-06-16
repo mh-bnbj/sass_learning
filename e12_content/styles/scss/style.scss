@@ -1,9 +1,10 @@
 @import "_variables.scss";
 @import "mixins";
 
-@mixin query($borderColor) {
-    border: 2px solid $borderColor;
-    @content
+@mixin query($width) {
+    @media (max-width : $width){
+        @content;
+    }
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
     @include font(3rem, bold);
     @include hoverEffect(royalblue,white);
 
-    @include query(purple){
+    @include query(600px){
         box-shadow: 1px 1px 10px 2px black;
         text-shadow: 2px 2px red;
     }
