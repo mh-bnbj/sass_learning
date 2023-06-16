@@ -1,0 +1,14 @@
+
+
+
+
+@mixin textStyle($color, $bgColor, $border, $fasele) {
+    color: $color;
+    background-color: $bgColor;
+    border-radius: $border;
+    padding: $fasele;
+}
+@mixin font($fontSize, $fontWeight) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}
