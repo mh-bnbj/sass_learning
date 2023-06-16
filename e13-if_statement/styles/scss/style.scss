@@ -1,0 +1,41 @@
+@import "_variables.scss";
+@import "mixins";
+
+@mixin query($width) {
+    @media (max-width : $width){
+        @content;
+    }
+}
+
+h1 {
+    @include textStyle(blue, lightgreen, 20px, 10px);
+    @include font(3rem, bold);
+    @include hoverEffect(royalblue,white);
+
+    @include query(600px){
+        box-shadow: 1px 1px 10px 2px black;
+        text-shadow: 2px 2px red;
+    }
+}
+
+h2 {
+    @include textStyle(red, lightblue, 10px, 7px);
+    @include font(1rem, thin);
+    @include hoverEffect(royalblue,red);
+}
+
+// --------------- if-else syntax -------------- //
+
+$number : 4;
+
+p {
+    @include textStyle(gray, brown, 5px, 5px);
+    @include hoverEffect(pink,black);
+
+    @if($number == 3){
+        font-size: 30px;
+    }
+    @else{
+        font-size: 10px;
+    }
+}

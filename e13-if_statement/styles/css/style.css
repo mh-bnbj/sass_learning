@@ -1,0 +1,45 @@
+h1 {
+  color: blue;
+  background-color: lightgreen;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h1:hover {
+  background-color: royalblue;
+  color: white;
+}
+@media (max-width: 600px) {
+  h1 {
+    box-shadow: 1px 1px 10px 2px black;
+    text-shadow: 2px 2px red;
+  }
+}
+
+h2 {
+  color: red;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 1rem;
+  font-weight: thin;
+}
+h2:hover {
+  background-color: royalblue;
+  color: red;
+}
+
+p {
+  color: gray;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10px;
+}
+p:hover {
+  background-color: pink;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
