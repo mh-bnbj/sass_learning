@@ -19,12 +19,18 @@ h2 {
   font-size: 1rem;
   font-weight: thin;
 }
+h2:hover {
+  background-color: aqua;
+}
 
 p {
-  color: white;
+  color: gray;
   background-color: brown;
   border-radius: 5px;
   padding: 5px;
+}
+p:hover {
+  background-color: aqua;
 }
 
 /*# sourceMappingURL=style.css.map */
