@@ -1,21 +1,25 @@
 h1 {
-  color: white;
-  background-color: #654fef;
-  border-radius: 7px;
-  padding: 5px;
+  color: black;
+  background-color: lightgreen;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 h2 {
-  color: white;
-  background-color: #654fef;
-  border-radius: 7px;
-  padding: 5px;
+  color: red;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 1rem;
+  font-weight: thin;
 }
 
 p {
   color: white;
-  background-color: #654fef;
-  border-radius: 7px;
+  background-color: brown;
+  border-radius: 5px;
   padding: 5px;
 }
 
