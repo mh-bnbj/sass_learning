@@ -1,26 +1,13 @@
-.container-5 {
-  background-color: rebeccapurple;
-  height: 100px;
-}
-
-.container-4 {
-  background-color: rebeccapurple;
-  height: 80px;
-}
-
-.container-3 {
-  background-color: rebeccapurple;
-  height: 60px;
+.container-1 {
+  color: red;
 }
 
 .container-2 {
-  background-color: rebeccapurple;
-  height: 40px;
+  color: blue;
 }
 
-.container-1 {
-  background-color: rebeccapurple;
-  height: 20px;
+.container-3 {
+  color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
