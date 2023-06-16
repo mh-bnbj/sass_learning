@@ -1,0 +1,24 @@
+@import "_variables.scss";
+@import "mixins";
+
+h1{
+    background-color: orange;
+}
+
+.header{
+    font-size: 4rem;
+    color: red;
+
+    &:hover{
+        color : blue;
+    }
+}
+
+h2 {
+    @extend .header
+}
+
+p {
+    @extend h1
+}
+
