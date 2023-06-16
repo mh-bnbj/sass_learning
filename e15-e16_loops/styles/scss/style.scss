@@ -22,9 +22,19 @@
 // }
 
 // ----------------- sass FOR loops ---------------- // 
-@for $item from 1 through 5 {
+// @for $item from 1 through 5 {
+//     .container-#{$item} {
+//         background-color: rebeccapurple;
+//         height: 20px * $item;
+//     }
+// }
+
+// ----------------- sass While loops
+$item: 5;
+@while ($item > 0) {
     .container-#{$item} {
         background-color: rebeccapurple;
         height: 20px * $item;
     }
+    $item: $item - 1;
 }
