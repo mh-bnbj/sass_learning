@@ -26,7 +26,7 @@ h2 {
 
 // --------------- if-else syntax -------------- //
 
-$number : 4;
+$number : 10;
 
 p {
     @include textStyle(gray, brown, 5px, 5px);
@@ -35,7 +35,10 @@ p {
     @if($number == 3){
         font-size: 30px;
     }
-    @else{
+    @else if($number < 3){
         font-size: 10px;
+    }
+    @else{
+        font-size: 50px
     }
 }
