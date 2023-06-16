@@ -1,0 +1,14 @@
+.container {
+  background-color: #654fef;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container ul a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
