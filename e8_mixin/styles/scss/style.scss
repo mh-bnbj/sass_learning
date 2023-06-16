@@ -1,0 +1,53 @@
+// -------------- pure css -------------- //
+// h1 {
+//     color: black;
+//     background-color: lightgreen;
+//     border-radius: 20px;
+//     padding: 10px;
+//     font-size: 3rem;
+//     font-weight: bold;
+// }
+
+// h2 {
+//     color: red;
+//     background-color: lightblue;
+//     border-radius: 10px;
+//     padding: 7px;
+//     font-size: 1rem;
+//     font-weight: thin;
+// }
+
+// p {
+//     color: white;
+//     background-color: brown;
+//     border-radius: 5px;
+//     padding: 5px;
+// }
+
+
+// -------------- use scss mixin and give argument -------------- //
+@mixin textStyle($color, $bgColor, $border, $fasele) {
+    color: $color;
+    background-color: $bgColor;
+    border-radius: $border;
+    padding: $fasele;
+}
+
+@mixin font($fontSize, $fontWeight) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+}
+
+h1 {
+    @include textStyle(black, lightgreen, 20px, 10px);
+    @include font(3rem, bold);
+}
+
+h2 {
+    @include textStyle(red, lightblue, 10px, 7px);
+    @include font(1rem, thin);
+}
+
+p {
+    @include textStyle(white, brown, 5px, 5px);
+}
