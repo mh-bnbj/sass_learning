@@ -8,7 +8,8 @@ h1 {
   border: 3px solid #654fef;
 }
 h1:hover {
-  background-color: aqua;
+  background-color: royalblue;
+  color: white;
 }
 
 h2 {
@@ -20,7 +21,8 @@ h2 {
   font-weight: thin;
 }
 h2:hover {
-  background-color: aqua;
+  background-color: royalblue;
+  color: red;
 }
 
 p {
@@ -30,7 +32,8 @@ p {
   padding: 5px;
 }
 p:hover {
-  background-color: aqua;
+  background-color: pink;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

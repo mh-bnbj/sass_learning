@@ -1,25 +1,21 @@
 @import "_variables.scss";
 @import "mixins";
 
-@mixin hoverEffect {
-    &:hover{
-        background-color: aqua;
-    }
-}
+
 
 h1 {
     @include textStyle(blue, lightgreen, 20px, 10px);
     @include font(3rem, bold);
     border: 3px solid $primaryColor;
-    @include hoverEffect;
+    @include hoverEffect(royalblue,white);
 }
 
 h2 {
     @include textStyle(red, lightblue, 10px, 7px);
     @include font(1rem, thin);
-    @include hoverEffect;
+    @include hoverEffect(royalblue,red);
 }
 p {
     @include textStyle(gray, brown, 5px, 5px);
-    @include hoverEffect;
+    @include hoverEffect(pink,black);
 }

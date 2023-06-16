@@ -13,8 +13,9 @@
     font-weight: $fontWeight;
 }
 
-@mixin hoverEffect {
+@mixin hoverEffect($bgColor , $color) {
     &:hover{
-        background-color: aqua;
+        background-color: $bgColor;
+        color:$color
     }
 }
