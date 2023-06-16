@@ -1,0 +1,39 @@
+h1 {
+  color: blue;
+  background-color: lightgreen;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid #654fef;
+}
+h1:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+h2 {
+  color: red;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 1rem;
+  font-weight: thin;
+}
+h2:hover {
+  background-color: royalblue;
+  color: red;
+}
+
+p {
+  color: gray;
+  background-color: brown;
+  border-radius: 5px;
+  padding: 5px;
+}
+p:hover {
+  background-color: pink;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
