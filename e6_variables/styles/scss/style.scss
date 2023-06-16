@@ -1,0 +1,13 @@
+
+$primaryColor: #654fef;
+$fontSize:3rem;
+
+h1{
+    color: $primaryColor;
+}
+
+h2{
+    background-color: $primaryColor;
+    color: white;
+    font-size: $fontSize;
+}
