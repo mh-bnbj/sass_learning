@@ -1,0 +1,47 @@
+
+// ----------------------- pure css ----------------- //
+// .container-1 {
+//     background-color: rebeccapurple;
+//     height: 20px;
+// }
+// .container-2 {
+//     background-color: rebeccapurple;
+//     height: 40px;
+// }
+// .container-3 {
+//     background-color: rebeccapurple;
+//     height: 60px;
+// }
+// .container-4 {
+//     background-color: rebeccapurple;
+//     height: 80px;
+// }
+// .container-5 {
+//     background-color: rebeccapurple;
+//     height: 100px;
+// }
+
+// ----------------- sass FOR loops ---------------- // 
+// @for $item from 1 through 5 {
+//     .container-#{$item} {
+//         background-color: rebeccapurple;
+//         height: 20px * $item;
+//     }
+// }
+
+// ----------------- sass While loops ---------------- //
+// $item: 5;
+// @while ($item > 0) {
+//     .container-#{$item} {
+//         background-color: rebeccapurple;
+//         height: 20px * $item;
+//     }
+//     $item: $item - 1;
+// }
+
+// ------------------ sass forEach loops -------------- //
+@each $element , $color in (container-1:red , container-2:blue , container-3:green) {
+    .#{$element} {
+        color: $color;
+    }
+}
