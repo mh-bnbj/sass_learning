@@ -1,9 +1,17 @@
 @import "_variables.scss";
 @import "mixins";
 
-@mixin query($width) {
-    @media (max-width : $width){
-        @content;
+
+@mixin query($width , $mode) {
+    @if ($mode == max) {
+        @media (max-width : $width){
+            @content;
+        }
+    }
+    @else if($mode == min){
+        @media (min-width : $width){
+            @content;
+        }
     }
 }
 
@@ -12,7 +20,7 @@ h1 {
     @include font(3rem, bold);
     @include hoverEffect(royalblue,white);
 
-    @include query(600px){
+    @include query(600px , min){
         box-shadow: 1px 1px 10px 2px black;
         text-shadow: 2px 2px red;
     }
@@ -22,23 +30,4 @@ h2 {
     @include textStyle(red, lightblue, 10px, 7px);
     @include font(1rem, thin);
     @include hoverEffect(royalblue,red);
-}
-
-// --------------- if-else syntax -------------- //
-
-$number : 10;
-
-p {
-    @include textStyle(gray, brown, 5px, 5px);
-    @include hoverEffect(pink,black);
-
-    @if($number == 3){
-        font-size: 30px;
-    }
-    @else if($number < 3){
-        font-size: 10px;
-    }
-    @else{
-        font-size: 50px
-    }
 }

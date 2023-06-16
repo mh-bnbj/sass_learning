@@ -10,7 +10,7 @@ h1:hover {
   background-color: royalblue;
   color: white;
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   h1 {
     box-shadow: 1px 1px 10px 2px black;
     text-shadow: 2px 2px red;
@@ -28,18 +28,6 @@ h2 {
 h2:hover {
   background-color: royalblue;
   color: red;
-}
-
-p {
-  color: gray;
-  background-color: brown;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 50px;
-}
-p:hover {
-  background-color: pink;
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
