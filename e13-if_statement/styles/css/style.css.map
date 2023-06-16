@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/_mixins.scss"],"names":[],"mappings":"AAiBA;ECZI,ODamB;ECZnB,kBDYyB;ECXzB,eDWqC;ECVrC,SDU2C;ECP3C,WDQc;ECPd,aDOoB;;ACHpB;EACI,kBDGiB;ECFjB,ODE2B;;AAT3B;EAMR;IAMQ;IACA;;;;AAIR;ECvBI,ODwBmB;ECvBnB,kBDuBwB;ECtBxB,eDsBmC;ECrBnC,SDqByC;EClBzC,WDmBc;EClBd,aDkBoB;;ACdpB;EACI,kBDciB;ECbjB,ODa2B","file":"style.css"}
